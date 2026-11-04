@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="SomeApi/SomeApi.csproj" />
+  <Project Path="SomeApp.AppHost/SomeApp.AppHost.csproj" />
+  <Project Path="SomeApp.ServiceDefaults/SomeApp.ServiceDefaults.csproj" />
+  <Project Path="SomeApp/SomeApp.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>
