@@ -1,4 +1,4 @@
-﻿namespace ClientLibrary
+﻿namespace InterfaceLibrary
 {
     public class Class1
     {

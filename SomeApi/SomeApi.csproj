@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HostLibrary\HostLibrary.csproj" />
+    <ProjectReference Include="..\Shared\Shared.csproj" />
     <ProjectReference Include="..\SomeApp.ServiceDefaults\SomeApp.ServiceDefaults.csproj" />
   </ItemGroup>
 

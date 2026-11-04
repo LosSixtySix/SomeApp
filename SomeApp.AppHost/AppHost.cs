@@ -1,7 +1,10 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-builder.AddProject<Projects.SomeApp>("someapp");
+var mauiApp = builder.AddMauiProject("someapp","../SomeApp/SomeApp.csproj");
 
-builder.AddProject<Projects.SomeApi>("someapi");
+var api = builder.AddProject<Projects.SomeApi>("someapi");
+
+mauiApp.AddWindowsDevice()
+       .WithReference(api);
 
 builder.Build().Run();
