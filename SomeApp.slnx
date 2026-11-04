@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="ClientLibrary/ClientLibrary.csproj" />
+  <Project Path="HostLibrary/HostLibrary.csproj" />
   <Project Path="SomeApi/SomeApi.csproj" />
   <Project Path="SomeApp.AppHost/SomeApp.AppHost.csproj" />
   <Project Path="SomeApp.ServiceDefaults/SomeApp.ServiceDefaults.csproj" />

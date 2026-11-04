@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\HostLibrary\HostLibrary.csproj" />
     <ProjectReference Include="..\SomeApp.ServiceDefaults\SomeApp.ServiceDefaults.csproj" />
   </ItemGroup>
 
